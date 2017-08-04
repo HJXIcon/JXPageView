@@ -23,7 +23,7 @@
     NSArray *titles = @[@"适合",@"十二班",@"的华",@"推荐爱推荐爱",@"人丹33",@"适合",@"十二班",@"的华"];
     JXPageStyle *style = [[JXPageStyle alloc]init];
     
-    style.isScrollEnable = YES;
+    style.isScrollEnable = NO;
     style.isShowBottomLine = YES;
     
     NSMutableArray *childVcs = [NSMutableArray array];

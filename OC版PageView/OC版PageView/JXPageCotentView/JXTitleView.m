@@ -199,8 +199,10 @@
     currentIndex = targetLabel.tag;
 
     
-    // 2.调整点击label的位置
-    [self adjustLabelPosition];
+    if (self.style.isScrollEnable) {
+        // 2.调整点击label的位置
+        [self adjustLabelPosition];
+    }
     
     
     // 3.通知代理
@@ -254,8 +256,11 @@
 - (void)pageContentView:(JXPageContentView *)pageContentView didEndScroll:(int)inIndex{
     
     currentIndex = inIndex;
-    ///调整点击label的位置
-    [self adjustLabelPosition];
+    
+    if (self.style.isScrollEnable) {
+        ///调整点击label的位置
+        [self adjustLabelPosition];
+    }
     
     
 }

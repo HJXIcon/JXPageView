@@ -7,20 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04324A7E1F34786700C3437C /* JXContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04324A7A1F34786700C3437C /* JXContentView.swift */; };
+		04324A7F1F34786700C3437C /* JXPageStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04324A7B1F34786700C3437C /* JXPageStyle.swift */; };
+		04324A801F34786700C3437C /* JXTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04324A7C1F34786700C3437C /* JXTitleView.swift */; };
+		04324A811F34786700C3437C /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04324A7D1F34786700C3437C /* UIColor-Extension.swift */; };
 		F33199251E89719E00261330 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33199241E89719E00261330 /* AppDelegate.swift */; };
 		F33199271E89719E00261330 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33199261E89719E00261330 /* ViewController.swift */; };
 		F331992A1E89719E00261330 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F33199281E89719E00261330 /* Main.storyboard */; };
 		F331992C1E89719E00261330 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F331992B1E89719E00261330 /* Assets.xcassets */; };
 		F331992F1E89719E00261330 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F331992D1E89719E00261330 /* LaunchScreen.storyboard */; };
-		F33199371E89727E00261330 /* JXTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33199361E89727E00261330 /* JXTitleView.swift */; };
 		F33199391E89728B00261330 /* JXPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33199381E89728B00261330 /* JXPageView.swift */; };
-		F331993B1E89729F00261330 /* JXContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F331993A1E89729F00261330 /* JXContentView.swift */; };
-		F331993D1E8972F500261330 /* JXPageStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F331993C1E8972F500261330 /* JXPageStyle.swift */; };
-		F331993F1E897B8F00261330 /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F331993E1E897B8F00261330 /* UIColor-Extension.swift */; };
 		F35082BC1F2A3FB800590635 /* JXPageView.gif in Resources */ = {isa = PBXBuildFile; fileRef = F35082BB1F2A3FB800590635 /* JXPageView.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04324A7A1F34786700C3437C /* JXContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JXContentView.swift; path = JXPageContentView/JXContentView.swift; sourceTree = SOURCE_ROOT; };
+		04324A7B1F34786700C3437C /* JXPageStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JXPageStyle.swift; path = JXPageContentView/JXPageStyle.swift; sourceTree = SOURCE_ROOT; };
+		04324A7C1F34786700C3437C /* JXTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JXTitleView.swift; path = JXPageContentView/JXTitleView.swift; sourceTree = SOURCE_ROOT; };
+		04324A7D1F34786700C3437C /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor-Extension.swift"; path = "JXPageContentView/UIColor-Extension.swift"; sourceTree = SOURCE_ROOT; };
 		F33199211E89719E00261330 /* JXPageContentView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JXPageContentView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F33199241E89719E00261330 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F33199261E89719E00261330 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -28,11 +32,7 @@
 		F331992B1E89719E00261330 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F331992E1E89719E00261330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F33199301E89719E00261330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F33199361E89727E00261330 /* JXTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JXTitleView.swift; path = ../JXTitleView.swift; sourceTree = "<group>"; };
 		F33199381E89728B00261330 /* JXPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JXPageView.swift; path = JXPageContentView/JXPageView.swift; sourceTree = SOURCE_ROOT; };
-		F331993A1E89729F00261330 /* JXContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JXContentView.swift; path = ../JXContentView.swift; sourceTree = "<group>"; };
-		F331993C1E8972F500261330 /* JXPageStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JXPageStyle.swift; path = ../JXPageStyle.swift; sourceTree = "<group>"; };
-		F331993E1E897B8F00261330 /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor-Extension.swift"; path = "../UIColor-Extension.swift"; sourceTree = "<group>"; };
 		F35082BB1F2A3FB800590635 /* JXPageView.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = JXPageView.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,10 +82,10 @@
 			isa = PBXGroup;
 			children = (
 				F33199381E89728B00261330 /* JXPageView.swift */,
-				F331993A1E89729F00261330 /* JXContentView.swift */,
-				F33199361E89727E00261330 /* JXTitleView.swift */,
-				F331993C1E8972F500261330 /* JXPageStyle.swift */,
-				F331993E1E897B8F00261330 /* UIColor-Extension.swift */,
+				04324A7A1F34786700C3437C /* JXContentView.swift */,
+				04324A7B1F34786700C3437C /* JXPageStyle.swift */,
+				04324A7C1F34786700C3437C /* JXTitleView.swift */,
+				04324A7D1F34786700C3437C /* UIColor-Extension.swift */,
 			);
 			path = JXPageView;
 			sourceTree = "<group>";
@@ -171,13 +171,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F331993D1E8972F500261330 /* JXPageStyle.swift in Sources */,
-				F33199371E89727E00261330 /* JXTitleView.swift in Sources */,
 				F33199391E89728B00261330 /* JXPageView.swift in Sources */,
-				F331993B1E89729F00261330 /* JXContentView.swift in Sources */,
+				04324A7F1F34786700C3437C /* JXPageStyle.swift in Sources */,
 				F33199271E89719E00261330 /* ViewController.swift in Sources */,
-				F331993F1E897B8F00261330 /* UIColor-Extension.swift in Sources */,
+				04324A7E1F34786700C3437C /* JXContentView.swift in Sources */,
 				F33199251E89719E00261330 /* AppDelegate.swift in Sources */,
+				04324A801F34786700C3437C /* JXTitleView.swift in Sources */,
+				04324A811F34786700C3437C /* UIColor-Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
