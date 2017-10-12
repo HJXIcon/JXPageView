@@ -36,6 +36,8 @@ class ViewController: UIViewController {
         view.addSubview(pageView)
         
         
+        
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "push", style: .plain, target: self, action: Selector("rightAction"))
     }
 
     override func didReceiveMemoryWarning() {
@@ -43,6 +45,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    func rightAction() {
+        self.navigationController?.pushViewController(ViewController(), animated: true)
+    }
 
 }
+
+
 

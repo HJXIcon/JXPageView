@@ -15,8 +15,8 @@
     BOOL isForbidDelegate; //禁止代理，默认是禁止
     
 }
-
-@property(nonatomic, strong) UICollectionView *collectionView;
+// 注意使用weak，否则造成循环引用
+@property(nonatomic, weak) UICollectionView *collectionView;
 
 @end
 

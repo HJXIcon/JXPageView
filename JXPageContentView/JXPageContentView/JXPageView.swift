@@ -14,7 +14,7 @@ class JXPageView: UIView {
     var titles: [String]
     var style: JXPageStyle
     var childVcs: [UIViewController]
-    var parentVc: UIViewController
+    weak var parentVc: UIViewController?
     
     init(frame: CGRect, titles:[String], style:JXPageStyle, childVcs:[UIViewController], parentVc:UIViewController) {
         
@@ -33,6 +33,10 @@ class JXPageView: UIView {
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+    
+    deinit {
+        print("pageView --- deinit")
+    }
 
 }
 
@@ -49,6 +53,10 @@ extension JXPageView{
         
         // 2.创建contentView
         let contentViewFram = CGRect(x: 0, y: titleFrame.maxY, width: bounds.width, height: bounds.height - titleFrame.maxY)
+        assert(parentVc != nil, "parentVc must not nil")
+        guard let parentVc = parentVc else {
+            return
+        }
         let contentView = JXContentView(frame: contentViewFram, childVcs: childVcs, parentVc: parentVc)
         addSubview(contentView)
         

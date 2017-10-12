@@ -25,7 +25,7 @@ class JXContentView: UIView {
     /// 开始拖拽的时候偏移量
     fileprivate var startOffsetX : CGFloat = 0
     fileprivate var childVcs: [UIViewController]
-    fileprivate var parentVc: UIViewController
+    weak fileprivate var parentVc: UIViewController?
     fileprivate var isForbidDelegate : Bool = false //禁止代理，默认是禁止
     
     fileprivate lazy var collectionView : UICollectionView = {
@@ -69,6 +69,9 @@ class JXContentView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
+    deinit {
+        print("content --- deinit")
+    }
     
 }
 
@@ -79,7 +82,7 @@ extension JXContentView{
     
         // 1.childVcs添加到parentVc
         for childVc in childVcs{
-            parentVc.addChildViewController(childVc)
+            parentVc?.addChildViewController(childVc)
         }
         
         // 2.添加collectionView
