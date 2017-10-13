@@ -118,6 +118,7 @@ extension JXContentView : UICollectionViewDataSource {
         
         // 2.添加view
         let childVc = childVcs[indexPath.row]
+        childVc.view.frame = CGRect(x: 0, y: 0, width: self.collectionView.frame.width, height: self.collectionView.frame.height)
         cell.contentView.addSubview(childVc.view)
         
         
