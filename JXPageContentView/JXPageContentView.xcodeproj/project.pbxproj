@@ -7,24 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04324A7E1F34786700C3437C /* JXContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04324A7A1F34786700C3437C /* JXContentView.swift */; };
-		04324A7F1F34786700C3437C /* JXPageStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04324A7B1F34786700C3437C /* JXPageStyle.swift */; };
-		04324A801F34786700C3437C /* JXTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04324A7C1F34786700C3437C /* JXTitleView.swift */; };
-		04324A811F34786700C3437C /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04324A7D1F34786700C3437C /* UIColor-Extension.swift */; };
+		82DB3AC61F988BAB009B32E4 /* JXContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DB3AC11F988BAB009B32E4 /* JXContentView.swift */; };
+		82DB3AC71F988BAB009B32E4 /* JXPageStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DB3AC21F988BAB009B32E4 /* JXPageStyle.swift */; };
+		82DB3AC81F988BAB009B32E4 /* JXPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DB3AC31F988BAB009B32E4 /* JXPageView.swift */; };
+		82DB3AC91F988BAB009B32E4 /* JXTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DB3AC41F988BAB009B32E4 /* JXTitleView.swift */; };
+		82DB3ACA1F988BAB009B32E4 /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DB3AC51F988BAB009B32E4 /* UIColor-Extension.swift */; };
 		F33199251E89719E00261330 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33199241E89719E00261330 /* AppDelegate.swift */; };
 		F33199271E89719E00261330 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33199261E89719E00261330 /* ViewController.swift */; };
 		F331992A1E89719E00261330 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F33199281E89719E00261330 /* Main.storyboard */; };
 		F331992C1E89719E00261330 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F331992B1E89719E00261330 /* Assets.xcassets */; };
 		F331992F1E89719E00261330 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F331992D1E89719E00261330 /* LaunchScreen.storyboard */; };
-		F33199391E89728B00261330 /* JXPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33199381E89728B00261330 /* JXPageView.swift */; };
 		F35082BC1F2A3FB800590635 /* JXPageView.gif in Resources */ = {isa = PBXBuildFile; fileRef = F35082BB1F2A3FB800590635 /* JXPageView.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		04324A7A1F34786700C3437C /* JXContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JXContentView.swift; path = JXPageContentView/JXContentView.swift; sourceTree = SOURCE_ROOT; };
-		04324A7B1F34786700C3437C /* JXPageStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JXPageStyle.swift; path = JXPageContentView/JXPageStyle.swift; sourceTree = SOURCE_ROOT; };
-		04324A7C1F34786700C3437C /* JXTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JXTitleView.swift; path = JXPageContentView/JXTitleView.swift; sourceTree = SOURCE_ROOT; };
-		04324A7D1F34786700C3437C /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor-Extension.swift"; path = "JXPageContentView/UIColor-Extension.swift"; sourceTree = SOURCE_ROOT; };
+		82DB3AC11F988BAB009B32E4 /* JXContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXContentView.swift; sourceTree = "<group>"; };
+		82DB3AC21F988BAB009B32E4 /* JXPageStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXPageStyle.swift; sourceTree = "<group>"; };
+		82DB3AC31F988BAB009B32E4 /* JXPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXPageView.swift; sourceTree = "<group>"; };
+		82DB3AC41F988BAB009B32E4 /* JXTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXTitleView.swift; sourceTree = "<group>"; };
+		82DB3AC51F988BAB009B32E4 /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
 		F33199211E89719E00261330 /* JXPageContentView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JXPageContentView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F33199241E89719E00261330 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F33199261E89719E00261330 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -32,7 +33,6 @@
 		F331992B1E89719E00261330 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F331992E1E89719E00261330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F33199301E89719E00261330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F33199381E89728B00261330 /* JXPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JXPageView.swift; path = JXPageContentView/JXPageView.swift; sourceTree = SOURCE_ROOT; };
 		F35082BB1F2A3FB800590635 /* JXPageView.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = JXPageView.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -47,6 +47,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		82DB3AC01F988B87009B32E4 /* JXPageView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JXPageView;
+			sourceTree = "<group>";
+		};
 		F33199181E89719E00261330 = {
 			isa = PBXGroup;
 			children = (
@@ -81,11 +88,11 @@
 		F35082B91F2A3CCC00590635 /* JXPageView */ = {
 			isa = PBXGroup;
 			children = (
-				F33199381E89728B00261330 /* JXPageView.swift */,
-				04324A7A1F34786700C3437C /* JXContentView.swift */,
-				04324A7B1F34786700C3437C /* JXPageStyle.swift */,
-				04324A7C1F34786700C3437C /* JXTitleView.swift */,
-				04324A7D1F34786700C3437C /* UIColor-Extension.swift */,
+				82DB3AC11F988BAB009B32E4 /* JXContentView.swift */,
+				82DB3AC21F988BAB009B32E4 /* JXPageStyle.swift */,
+				82DB3AC31F988BAB009B32E4 /* JXPageView.swift */,
+				82DB3AC41F988BAB009B32E4 /* JXTitleView.swift */,
+				82DB3AC51F988BAB009B32E4 /* UIColor-Extension.swift */,
 			);
 			path = JXPageView;
 			sourceTree = "<group>";
@@ -93,6 +100,7 @@
 		F35082BA1F2A3F3100590635 /* 效果图 */ = {
 			isa = PBXGroup;
 			children = (
+				82DB3AC01F988B87009B32E4 /* JXPageView */,
 				F35082BB1F2A3FB800590635 /* JXPageView.gif */,
 			);
 			path = "效果图";
@@ -171,13 +179,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F33199391E89728B00261330 /* JXPageView.swift in Sources */,
-				04324A7F1F34786700C3437C /* JXPageStyle.swift in Sources */,
+				82DB3ACA1F988BAB009B32E4 /* UIColor-Extension.swift in Sources */,
+				82DB3AC81F988BAB009B32E4 /* JXPageView.swift in Sources */,
 				F33199271E89719E00261330 /* ViewController.swift in Sources */,
-				04324A7E1F34786700C3437C /* JXContentView.swift in Sources */,
+				82DB3AC71F988BAB009B32E4 /* JXPageStyle.swift in Sources */,
 				F33199251E89719E00261330 /* AppDelegate.swift in Sources */,
-				04324A801F34786700C3437C /* JXTitleView.swift in Sources */,
-				04324A811F34786700C3437C /* UIColor-Extension.swift in Sources */,
+				82DB3AC61F988BAB009B32E4 /* JXContentView.swift in Sources */,
+				82DB3AC91F988BAB009B32E4 /* JXTitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
