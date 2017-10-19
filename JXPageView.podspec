@@ -14,7 +14,7 @@ s.platform     = :ios
 s.platform     = :ios, "8.0"
 
 
-s.source       = { :git => "https://github.com/HJXIcon/JXPageView", :tag => "1.0.3"}
+s.source       = { :git => "https://github.com/HJXIcon/JXPageView.git", :tag => "1.0.3"}
 
 
 s.source_files  = "JXPageContentView/JXPageContentView/JXPageView/**/*.{swift}"
