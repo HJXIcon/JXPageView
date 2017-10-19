@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-s.name         = "JXPageView_swift"
+s.name         = "JXPageView"
 s.version      = "1.0.3"
 s.summary      = "封装简单、支持定制、页面控制器,可以滚动内容和标题栏,包含多种style"
 
