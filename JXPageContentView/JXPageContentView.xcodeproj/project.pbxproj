@@ -47,13 +47,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		82DB3AC01F988B87009B32E4 /* JXPageView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = JXPageView;
-			sourceTree = "<group>";
-		};
 		F33199181E89719E00261330 = {
 			isa = PBXGroup;
 			children = (
@@ -100,7 +93,6 @@
 		F35082BA1F2A3F3100590635 /* 效果图 */ = {
 			isa = PBXGroup;
 			children = (
-				82DB3AC01F988B87009B32E4 /* JXPageView */,
 				F35082BB1F2A3FB800590635 /* JXPageView.gif */,
 			);
 			path = "效果图";
