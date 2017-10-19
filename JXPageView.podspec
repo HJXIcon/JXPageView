@@ -14,7 +14,7 @@ s.platform     = :ios
 s.platform     = :ios, "7.0"
 
 
-s.source       = { :git => "https://github.com/HJXIcon/JXPageView", :tag => "1.73"}
+s.source       = { :git => "https://github.com/HJXIcon/JXPageView", :tag => “1.0.0”}
 
 
 s.source_files  = "JXPageView/OC_PageView/OC_PageView/JXPageCotentView/**/*.{h,m}"
