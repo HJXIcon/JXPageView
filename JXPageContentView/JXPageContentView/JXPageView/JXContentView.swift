@@ -169,13 +169,15 @@ extension JXContentView : UICollectionViewDelegate{
             targetIndex = sourceIndex + 1
             //越界
             if targetIndex >= childVcs.count {
+                progress = 1
                 targetIndex = childVcs.count - 1
             }
             
-            progress = (contentOffsetX - startOffsetX) / collectionWidth
+            progress = contentOffsetX / collectionWidth - floor(contentOffsetX/collectionWidth)
             
             /// 刚好一个屏幕的时候(什么时候停止)
             if (contentOffsetX - startOffsetX) == collectionWidth {
+                progress = 1
                 targetIndex = sourceIndex
             }
             
@@ -183,7 +185,7 @@ extension JXContentView : UICollectionViewDelegate{
             
             targetIndex = Int(contentOffsetX / collectionWidth)
             sourceIndex = targetIndex + 1
-            progress = (startOffsetX - contentOffsetX) / collectionWidth
+            progress = 1 - (contentOffsetX / collectionWidth - floor(contentOffsetX/collectionWidth))
             
         }
         

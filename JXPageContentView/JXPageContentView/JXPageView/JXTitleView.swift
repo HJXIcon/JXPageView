@@ -189,7 +189,9 @@ extension JXTitleView{
         sourceLabel.textColor = style.normalColor
         currentIndex = targetLabel.tag
         
-        if self.style.isScrollEnable {
+        /// 是否可以滚动
+        let lastLabel = self.titleLabels.last
+        if self.style.isScrollEnable && (lastLabel!.frame.maxX + self.style.titleMargin * 0.5 > self.frame.width) {
             // 2.调整点击label的位置
             adjustLabelPosition()
         }
@@ -245,7 +247,9 @@ extension JXTitleView : JXContentViewDelegate {
     func contentView(_ contentView: JXContentView, didEndScroll inIndex: Int) {
         currentIndex = inIndex
         
-        if self.style.isScrollEnable {
+        /// 是否可以滚动
+        let lastLabel = self.titleLabels.last
+        if self.style.isScrollEnable && (lastLabel!.frame.maxX + self.style.titleMargin * 0.5 > self.frame.width) {
             ///调整点击label的位置
             adjustLabelPosition()
         }
