@@ -17,10 +17,11 @@ class ViewController: UIViewController {
         
         automaticallyAdjustsScrollViewInsets = false
         
-        let title = ["适合","十二班","的华","推荐爱推荐爱","人丹33","适合","十二班","的华"]
+        let title = ["适合","十二班","的华","推荐爱推荐爱\n得得","人丹33","适合","十二班","的华"]
         var style = JXPageStyle()
         style.isScrollEnable = true
-        
+        style.multilineEnable = true
+        style.titleHeight = 60
         var childVcs = [UIViewController]()
         
         for _ in 0..<title.count{
@@ -37,7 +38,7 @@ class ViewController: UIViewController {
         
         
         
-        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "push", style: .plain, target: self, action: Selector("rightAction"))
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "push", style: .plain, target: self, action: #selector(ViewController.rightAction))
     }
 
     override func didReceiveMemoryWarning() {

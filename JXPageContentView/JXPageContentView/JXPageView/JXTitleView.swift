@@ -114,7 +114,9 @@ extension JXTitleView {
             label.textAlignment = .center
             label.textColor = i == 0 ? style.selectColor : style.normalColor
             label.font = style.titleFont
-            
+            if(style.multilineEnable){
+                label.numberOfLines = 0;
+            }
             // tap
             // tagGes外部参数，如果不希望有外部参数，在外部参数前加上_
             let tap = UITapGestureRecognizer(target: self, action: #selector(titleLabelClick(_:)))

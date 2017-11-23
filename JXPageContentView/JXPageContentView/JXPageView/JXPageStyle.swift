@@ -22,13 +22,8 @@ struct JXPageStyle{
     var bottomLineHeight : CGFloat = 2 //高度
     var isNeedScale : Bool = true // 是否缩放
     var maxScaleRang : CGFloat = 1.2 // 最大缩放程度
-    
-    
-    
-    
-    
-    
-    
-    
+    /// 标题是否支持多行
+    var multilineEnable : Bool = false 
+
     
 }
